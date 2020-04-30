@@ -3,26 +3,13 @@ body {
     background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
     font-family: 'Caveat', cursive;
 }
+
 /* START TIMO */
 
 .formulaire {
     border: black solid 1px;
     padding: 40px;
     font-size: 1.5rem;
-}
-
-.game-title {
-    font-family: 'Mouse Memoirs', sans-serif;
-    text-shadow: 2px 2px 1px darkgrey;
-}
-
-.game-title h1 {
-    font-size: 3rem;
-}
-
-.game-card {
-    font-family: 'Caveat', cursive;
-    font-size: 1.2rem;
     font-weight: bold;
     background-color: #bed4bc;
     border-radius: 6% 6%;
@@ -65,9 +52,10 @@ body {
 
 /* START ROLLS */
 
-h4 p {
+.card-text {
     font-family: 'Caveat', cursive;
 }
+
 .card-img-top {
     height: 200px;
     width: 100%;
@@ -75,6 +63,7 @@ h4 p {
     align-content: center;
     align-items: center;
 }
+
 .card {
     width: 350px;
     font-family: 'Caveat', cursive;
@@ -83,7 +72,7 @@ h4 p {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
 
-button {
+.button-card {
     position:relative;
     margin-bottom: 100px;
     margin-top: 20px;
@@ -109,7 +98,7 @@ button {
     align-content: flex-start;
 }
 
-button:hover {
+.button-card:hover {
     left:4px;
     top:4px;
     box-shadow: #000000;
