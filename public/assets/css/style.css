@@ -1,0 +1,62 @@
+body {
+    background-color: #557a24;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+}
+
+/* START TIMO */
+
+/* END TIMO */
+
+/* START ROLLS */
+
+/* END ROLLS */
+
+/* START GREEN-O */
+
+.game-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    text-shadow: 2px 2px 1px darkgrey;
+}
+
+.game-title h1 {
+    font-size: 3rem;
+}
+
+.game-card {
+    font-family: 'Caveat', cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #bed4bc;
+    border-radius: 6% 6%;
+    box-shadow: 6px 6px 4px black;
+}
+
+.icones-reponse {
+    color: #557a24;
+}
+
+.icones-jeu {
+    font-size: 3rem;
+}
+
+.icones-jeu a {
+    color: #557a24;
+}
+
+.icones-jeu a:hover {
+    text-decoration: none;
+    color: #db2f2f;
+}
+
+.modal-content {
+    font-family: 'Caveat', cursive;
+    font-size: 1.2rem;
+    border-radius: 6% 6%;
+    background-color: #bed4bc;
+}
+
+.modal h5 {
+    font-size: 1.8rem;
+}
+
+/* END GREEN-O */
