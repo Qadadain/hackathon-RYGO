@@ -42,12 +42,34 @@ body {
 }
 
 .iconhome {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     margin-right: 2rem;
     margin-left: 2rem;
 }
-
+.iconfinal {
+    color: darkgoldenrod;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.video {
+    margin: 50px;
+}
+.description h1{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.description {
+    margin: 50px;
+    font-size: 1.4rem;
+    border: black solid 1px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 6% 6%;
+    box-shadow: 6px 6px 4px black;
+}
 /* END TIMO */
 
 /* START ROLLS */
