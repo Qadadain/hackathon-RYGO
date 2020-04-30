@@ -4,8 +4,6 @@ body{
     font-family: 'Caveat', cursive;
 }
 /* START TIMO */
-
-/* END TIMO */
 .formulaire {
     border: black solid 1px;
     padding: 40px;
@@ -41,8 +39,58 @@ body{
     margin-right: 2rem;
     margin-left: 2rem;
 }
-/* START ROLLS */
+/* END TIMO */
 
+/* START ROLLS */
+h4 p {
+    font-family: 'Caveat', cursive;
+}
+.card-img-top{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.card{
+    width: 350px;
+    font-family: 'Caveat', cursive;
+    background-color: #bed4bc;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+button {
+    position:relative;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background: #660930;
+    border:1px solid white;
+    padding:20px;
+    font-size:0.9em;
+    color: #000000;
+    box-shadow:4px 4px 0px 0px #c3bebe;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    letter-spacing:5px;
+    text-transform:uppercase;
+    transition: all 300ms ease-in-out;
+    left:0;
+    top:0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+}
+
+button:hover {
+    left:4px;
+    top:4px;
+    box-shadow: #000000;
+}
 /* END ROLLS */
 
 /* START GREEN-O */
