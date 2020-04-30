@@ -1,5 +1,20 @@
 {% extends 'layout.html.twig' %}
 
 {% block content %}
-    <p>Le bloc de la webcam</p>
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-4 ml-5 description">
+                <div class="">
+                    <h1><i class="fa iconfinal fa-star"></i> Le Panda Géant</h1>
+                    <p>Le panda géant vit dans les régions montagneuses de Chine, entre 1 500 et 3 400 mètres d'altitude.</p>
+                    <p>Bien qu'il soit classé parmi les carnivores, il mange presque exclusivement des pousses de bambou.
+                        Il consacre près de 14 heures de sa journée à s'alimenter. Le reste du temps, il le passe à dormir !</p>
+                    <p>Le panda géant, espèce menacée, symbolise la protection de l'environnement.</p>
+                </div>
+            </div>
+            <div class="col-7 ml-4">
+                <iframe class="video" src="https://www.youtube.com/embed/Gm3bQVANtVo?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 {% endblock %}
