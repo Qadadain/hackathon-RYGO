@@ -1,5 +1,30 @@
 {% extends 'layout.html.twig' %}
-
+{% block header %}{% include 'Game/header.html.twig' %}{% endblock %}
 {% block content %}
-    <h1>Nique les pangolins.</h1>
+    <div class="card-deck ">
+        <div class="card" >
+            <img class="card-img-top" src="#">
+            <div class="card-body">
+                <h4 class="card-title">Le rêve américain</h4>
+                <p class="card-text">dans ce Quizz nous allons parler des différants animaux que nous pouvons trouver sur le continent américain, est tu prêt ? </p>
+                <button type="button" class="btn btn-warning">Lets GO !</button>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="#">
+            <div class="card-body">
+                <h4 class="card-title">En terre inconnu</h4>
+                <p class="card-text">À l'Afrique se merveilleux continent autant que dans la culture qu'avec ses animaux, les plus terrifiant mais aussi les plus mignon !</p>
+                <button type="button" class="btn btn-warning">Ya tafi</button>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="#">
+            <div class="card-body">
+                <h4 class="card-title">Mille est une culture</h4>
+                <p class="card-text">L'Asie, le continent des nems nems nems nems et du malheureux kim jung un  </p>
+                <button type="button" class="btn btn-warning">Commencez l'invasion</button>
+            </div>
+        </div>
+    </div>
 {% endblock %}
