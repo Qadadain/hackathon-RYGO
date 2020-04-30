@@ -1,58 +1,81 @@
-body{
+body {
     background-color: #557a24;
     background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
     font-family: 'Caveat', cursive;
 }
 /* START TIMO */
+
 .formulaire {
     border: black solid 1px;
     padding: 40px;
     font-size: 1.5rem;
+}
+
+.game-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    text-shadow: 2px 2px 1px darkgrey;
+}
+
+.game-title h1 {
+    font-size: 3rem;
+}
+
+.game-card {
+    font-family: 'Caveat', cursive;
+    font-size: 1.2rem;
     font-weight: bold;
     background-color: #bed4bc;
     border-radius: 6% 6%;
     box-shadow: 6px 6px 4px black;
 }
+
 .formulaire label{
     font-size: 2rem;
 }
+
 .hometitle {
     font-size: 10rem;
     font-family: 'Mouse Memoirs', sans-serif;
 }
+
 .hometext {
     font-size: 1.5rem;
     margin: 3rem;
 }
+
 .homebutton {
     width: 100%;
     font-size: 1.5rem;
 }
+
 .homeimage {
     margin-left: 20px;
     font-size: 1.6rem;
     color: white;
 }
+
 .iconhome {
     font-size: 3rem;
     margin-bottom: 1rem;
     margin-right: 2rem;
     margin-left: 2rem;
 }
+
 /* END TIMO */
 
 /* START ROLLS */
+
 h4 p {
     font-family: 'Caveat', cursive;
 }
-.card-img-top{
+.card-img-top {
     height: 200px;
     width: 100%;
     display: flex;
     align-content: center;
     align-items: center;
 }
-.card{
+.card {
     width: 350px;
     font-family: 'Caveat', cursive;
     background-color: #bed4bc;
@@ -91,8 +114,37 @@ button:hover {
     top:4px;
     box-shadow: #000000;
 }
+
 /* END ROLLS */
 
 /* START GREEN-O */
+
+.icones-reponse {
+    color: #557a24;
+}
+
+.icones-jeu {
+    font-size: 3rem;
+}
+
+.icones-jeu a {
+    color: #557a24;
+}
+
+.icones-jeu a:hover {
+    text-decoration: none;
+    color: #db2f2f;
+}
+
+.modal-content {
+    font-family: 'Caveat', cursive;
+    font-size: 1.2rem;
+    border-radius: 6% 6%;
+    background-color: #bed4bc;
+}
+
+.modal h5 {
+    font-size: 1.8rem;
+}
 
 /* END GREEN-O */
