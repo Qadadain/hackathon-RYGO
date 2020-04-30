@@ -73,10 +73,24 @@ body {
 /* END TIMO */
 
 /* START ROLLS */
-.card-deck .card{
-    margin-left: 40px;
-    margin-right: 40px;
+.card-menu {
+    margin-top: 3rem;
 }
+
+.card-menu img {
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.card-menu h4 {
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.card-deck .card{
+    /*margin-left: 40px;
+    margin-right: 40px;*/
+}
+
 .card-text {
     font-family: 'Caveat', cursive;
 }
@@ -95,33 +109,17 @@ body {
     background-color: #bed4bc;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
-
 a.button-card {
-    width: 250px;
-    position:relative;
-    margin-bottom: 100px;
-    margin-top: 20px;
-    margin-left: 25px;
     background: #660930;
     border:1px solid white;
-    padding:20px;
-    font-size:0.9em;
+    padding: 0 1rem 0 1rem;
+    font-size:1.5rem;
     color: #ffffff;
     box-shadow:4px 4px 0px 0px #c3bebe;
-    font-family: 'Open Sans', sans-serif;
     font-weight:700;
-    letter-spacing:5px;
-    text-transform:uppercase;
-    transition: all 300ms ease-in-out;
     left:0;
     top:0;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: baseline;
-    align-content: flex-start;
 }
 
 a.button-card:hover {
@@ -140,12 +138,12 @@ a.button-card:hover {
 }
 
 .game-title h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .game-card {
     font-family: 'Caveat', cursive;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     background-color: #bed4bc;
     border-radius: 6% 6%;
@@ -171,13 +169,29 @@ a.button-card:hover {
 
 .modal-content {
     font-family: 'Caveat', cursive;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     border-radius: 6% 6%;
     background-color: #bed4bc;
 }
 
+.modal-footer .btn {
+    font-size: 1.5rem;
+}
+
 .modal h5 {
     font-size: 1.8rem;
+}
+
+.header-nav {
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.header-nav p {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    color: whitesmoke;
 }
 
 /* END GREEN-O */

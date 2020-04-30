@@ -1,4 +1,12 @@
 {% block header %}
-    <a class="button-card" href="../Home/index">Menu Principal</a>
-    <p>Bonjour {{ sessions.pseudo }}</p>
+    <div class="container header-nav">
+        <div class="row">
+            <div>
+                <a class="button-card" href="/Game/index">Menu principal</a>
+            </div>
+            <div>
+                <p>Bonjour {{ sessions.pseudo }}</p>
+            </div>
+        </div>
+    </div>
 {% endblock %}
