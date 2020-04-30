@@ -108,6 +108,24 @@ body {
 
 /* START GREEN-O */
 
+.game-title {
+    font-family: 'Mouse Memoirs', sans-serif;
+    text-shadow: 2px 2px 1px darkgrey;
+}
+
+.game-title h1 {
+    font-size: 3rem;
+}
+
+.game-card {
+    font-family: 'Caveat', cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #bed4bc;
+    border-radius: 6% 6%;
+    box-shadow: 6px 6px 4px black;
+}
+
 .icones-reponse {
     color: #557a24;
 }
