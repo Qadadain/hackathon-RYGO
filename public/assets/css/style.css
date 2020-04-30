@@ -16,18 +16,19 @@ body {
     box-shadow: 6px 6px 4px black;
 }
 
-.formulaire label{
+.formulaire label {
     font-size: 2rem;
 }
 
 .hometitle {
     font-size: 10rem;
     font-family: 'Mouse Memoirs', sans-serif;
+    text-shadow: 2px 2px 1px darkgrey;
 }
 
 .hometext {
     font-size: 1.5rem;
-    margin: 3rem;
+    margin: 2rem 0 3rem 0;
 }
 
 .homebutton {
@@ -44,30 +45,34 @@ body {
 .iconhome {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
+
 .iconfinal {
     color: darkgoldenrod;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-bottom: 1rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
 }
+
 .video {
-    margin: 50px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
-.description h1{
-    font-size: 2rem;
+.description h1 {
+    font-size: 1.8rem;
     text-decoration: underline;
 }
+
 .description {
-    margin: 50px;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     border: black solid 1px;
-    padding: 40px;
+    padding: 1rem;
     background-color: white;
-    border-radius: 6% 6%;
+    border-radius: 15px;
     box-shadow: 6px 6px 4px black;
 }
 /* END TIMO */
@@ -75,6 +80,10 @@ body {
 /* START ROLLS */
 .card-menu {
     margin-top: 3rem;
+}
+
+.col-10 {
+    border-radius: 10px;
 }
 
 .card-menu img {
