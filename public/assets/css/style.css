@@ -208,4 +208,16 @@ a.button-card:hover {
     color: whitesmoke;
 }
 
+@-webkit-keyframes clignote {
+    0%{box-shadow:0px 0px 10px #4183C4;}
+    50%{box-shadow:0px 0px 0px #4183C4;}
+    100%{box-shadow:0px 0px 10px #4183C4;}
+}
+
+.video-cligno {
+    -webkit-animation-name: clignote;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count:infinite;
+}
+
 /* END GREEN-O */
