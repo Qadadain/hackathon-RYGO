@@ -1,5 +1,30 @@
 {% extends 'layout.html.twig' %}
 
 {% block content %}
-    <h1>Hello Wilder !</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8 offset-2">
+            <h1 class="hometitle text-center">Voyagez Malin !</h1>
+            </div>
+                    <div class="col-8 offset-2">
+                       <p class="hometext text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore magnam
+                           nemo quod sint temporibus. Accusamus consectetur cum doloremque expedita,
+                           explicabo, id ipsam iste itaque iure nostrum perferendis placeat,
+                           quas qui?Aperiam corporis deleniti dignissimos.
+                       </p>
+                    </div>
+            <div class="offset-4 col-4 formulaire">
+    <form action="/game/index" method="POST">
+        <div class="form-group">
+            <i class="fa iconhome fa-child"></i><i class="fa iconhome fa-map"></i><i class="fa iconhome fa-compass"></i><i class="fa iconhome fa-plane"></i>
+            <label for="pseudo"></label>
+            <input type="text" class="form-control" id="pseudo" name="pseudo" placeholder="Pseudo" required>
+            <small class="pl-2"      id="pseudoHelp" >Ecrivez votre pseudo avant de commencer à jouer</small>
+        </div>
+        <button type="submit" class="btn btn-success homebutton">Commencer l'aventure <i class="fa homeimage fa-globe"></i> </button>
+    </form>
+            </div>
+        </div>
+    </div>
 {% endblock %}

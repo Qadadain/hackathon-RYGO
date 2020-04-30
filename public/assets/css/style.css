@@ -1,0 +1,50 @@
+body{
+    background-color: #557a24;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    font-family: 'Caveat', cursive;
+}
+/* START TIMO */
+
+/* END TIMO */
+.formulaire {
+    border: black solid 1px;
+    padding: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #bed4bc;
+    border-radius: 6% 6%;
+    box-shadow: 6px 6px 4px black;
+}
+.formulaire label{
+    font-size: 2rem;
+}
+.hometitle {
+    font-size: 10rem;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.hometext {
+    font-size: 1.5rem;
+    margin: 3rem;
+}
+.homebutton {
+    width: 100%;
+    font-size: 1.5rem;
+}
+.homeimage {
+    margin-left: 20px;
+    font-size: 1.6rem;
+    color: white;
+}
+.iconhome {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+/* START ROLLS */
+
+/* END ROLLS */
+
+/* START GREEN-O */
+
+/* END GREEN-O */
