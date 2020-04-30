@@ -1,7 +1,7 @@
 body {
     background-color: #557a24;
     background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-    font-family: 'Caveat', cursive;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 /* START TIMO */
@@ -62,8 +62,9 @@ body {
     height: 100%;
     border-radius: 15px;
 }
+
 .description h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-decoration: underline;
 }
 
@@ -101,7 +102,7 @@ body {
 }
 
 .card-text {
-    font-family: 'Caveat', cursive;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 .card-img-top {
@@ -114,7 +115,7 @@ body {
 
 .card {
     width: 350px;
-    font-family: 'Caveat', cursive;
+    font-family: 'Signika Negative', sans-serif;
     background-color: #bed4bc;
 }
 
@@ -151,7 +152,7 @@ a.button-card:hover {
 }
 
 .game-card {
-    font-family: 'Caveat', cursive;
+    font-family: 'Signika Negative', sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
     background-color: #bed4bc;
@@ -177,7 +178,7 @@ a.button-card:hover {
 }
 
 .modal-content {
-    font-family: 'Caveat', cursive;
+    font-family: 'Signika Negative', sans-serif;
     font-size: 1.6rem;
     border-radius: 6% 6%;
     background-color: #bed4bc;
