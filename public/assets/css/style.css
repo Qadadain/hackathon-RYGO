@@ -51,7 +51,10 @@ body {
 /* END TIMO */
 
 /* START ROLLS */
-
+.card-deck .card{
+    margin-left: 40px;
+    margin-right: 40px;
+}
 .card-text {
     font-family: 'Caveat', cursive;
 }
@@ -72,7 +75,8 @@ body {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
 
-.button-card {
+a.button-card {
+    width: 250px;
     position:relative;
     margin-bottom: 100px;
     margin-top: 20px;
@@ -81,7 +85,7 @@ body {
     border:1px solid white;
     padding:20px;
     font-size:0.9em;
-    color: #000000;
+    color: #ffffff;
     box-shadow:4px 4px 0px 0px #c3bebe;
     font-family: 'Open Sans', sans-serif;
     font-weight:700;
@@ -98,7 +102,7 @@ body {
     align-content: flex-start;
 }
 
-.button-card:hover {
+a.button-card:hover {
     left:4px;
     top:4px;
     box-shadow: #000000;
